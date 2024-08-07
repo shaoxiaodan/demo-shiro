@@ -42,6 +42,16 @@ public class CustomRealmTest {
 		// 主题标识属性
 		System.out.println("主题标识=" + subject.getPrincipal());
 		
+		// 判断角色
+//		subject.checkRole("root"); 
+//		subject.checkRole("role1");
+		
+//		System.out.println("判断授权,root=" + subject.hasRole("root"));
+//		System.out.println("判断授权,role1=" + subject.hasRole("role1"));
+		System.out.println("判断授权,role2=" + subject.hasRole("role2"));
+		
+		// 判断权限
+		System.out.println("判断权限,video:find=" + subject.isPermitted("video:find"));
 		
 	}
 
