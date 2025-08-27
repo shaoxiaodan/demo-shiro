@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.config;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -17,7 +17,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 /*
  * 自定义Realm
  */
-public class CustomRealm extends AuthorizingRealm {
+public class DemoShiroRealm extends AuthorizingRealm {
 
 	// 模拟数据库中的用户数据
 	private final Map<String, String> userInfoMap = new HashMap<>();

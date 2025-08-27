@@ -2,8 +2,6 @@ package com.example.demo;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.ini.IniSecurityManagerFactory;
-import org.apache.shiro.lang.util.Factory;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.SimpleAccountRealm;
 import org.apache.shiro.subject.Subject;
